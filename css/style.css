@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(23, 104, 107);
+}
+/********************* HEADER START **************************/
+.nav-bar {
+    margin-top:15px; /* SÜPER OLDUU*/
+    background-color: rgb(41, 39, 39);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+.nav-bar ul {
+    display: inline-flex;
+    list-style-type: none;
+
+}
+.nav-bar ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.active, .nav-bar ul li:hover {
+    background-color: rgb(129, 129, 99);
+    border-radius: 10px;
+    color: aqua;
+}
+
+.nav-logo{
+    width: 75px;
+    float: left;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 5px;
+    background-color: none;
+
+}
+
+.nav-bar .fa-solid{
+    margin-right: 12px;
+    color: white ;
+}
+
+/********************* HEADER END **************************/
+
+section {
+    display: inline-flexbox;
+    text-align: center;
+}
+.article {
+    background-color: bisque;
+    opacity: .75;
+    display: inline-flexbox;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+/****************** SECTION START ************************/
+.article h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+.article p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section img {
+    display: inline;
+    margin: 10px;
+    border: 3px solid black;
+    width: 120px;
+    height: 120px;
+}
+/****************** SECTION END ************************/
+
+/* PRODUCTs START */
+
+.products-sec {
+    display: inline-flexbox;
+    margin: 25px;
+    background-color: beige;
+    opacity: 0.7;
+}
+.products {
+    opacity: 1;
+}
+.oltalar {
+    margin: 10px;
+}
+
+.oltalar ul {
+    list-style-type: none;
+    opacity: 1;
+}
+
+.oltalar ul li{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 150px;
+}
+.product-img {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+/* PRODUCTs END */
+
+
+
+
+
+/********************* CONTACT START *****************************/
+/* BURADA CONTAİNER İLE ÇALIŞCAM ÇÜNKÜ ÇOK MANTIKLI*/
+.container {
+    display: inline-flexbox;
+    border: 3px solid black;
+    width: 90%;
+    margin: 30px;
+    background-color: antiquewhite;
+    opacity: 0.75;
+}
+
+.address ul li {
+    list-style-type: none;
+    font-size: 20px;
+    margin: 20px;
+}
+.address ul li a{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: rgb(23, 104, 107);
+}
+
+
+/*********************** CONTACT END *******************************/
+
+
+
+/********************** FOOTER START **************************/
+
+.footer {
+    background-color: rgb(63, 60, 60);
+    opacity: .7;
+    width: 100%;
+    text-align: center;
+}
+.footer ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+.footer ul li {
+    position: relative;
+    left: 120px;
+    margin: 10px;
+    padding: 15px;
+
+}
+.footer ul li a {
+    
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.footer .fa-brands{
+    margin-right:8px;
+    color: white ;
+}
+.footer .text-footer{
+    display: inline;
+    float: right;
+    margin: 25px;
+    color: azure;
+}
+/********************** FOOTER END **************************/
